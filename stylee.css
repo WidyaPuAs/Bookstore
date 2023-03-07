@@ -1,0 +1,11 @@
+.top-square {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #f1e5cf;
+    margin: 50px 30px 20px 30px;
+    border-radius: 20px;
+}
