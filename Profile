@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile</title>
+  <link rel="stylesheet" href="styleprofile.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+  <header>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span><img src="logo2.png" width="30" alt="bookly"></span></i><b> Bookly</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-notification"></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Category <i class="fas fa-caret-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Book" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-outline-primary rounded-pill">
+                    <img src="user.png" alt="Icon" class="mr-2">
+                    Sign Up
+                </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span><img src="logo2.png" width="30" alt="bookly"></span></i><b> Bookly</b></a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Menu 1</a></li>
+                <li><a class="dropdown-item" href="#">Menu 2</a></li>
+                <li><a class="dropdown-item" href="#">Menu 3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="search">
+            <form class="d-flex mx-auto my-2 my-lg-0">
+              <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success rounded-pill" type="submit" ><img src="search.png"></button>
+            </form>
+          </div>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><Span><img src="keranjang.png" width="25"></Span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><Span><img src="notif.png" width="25"></Span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><Span><img src="chat.png" width="25"></Span></a>
+            </li>
+          </ul>
+
+          <div class="user">
+            <button type="button" class="btn btn-outline-primary rounded-pill">
+              <img src="user.png" alt="Icon" class="mr-2">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="isi p-5 text-center i-custom">
+      <h1 class="mb-3">Contoh Website</h1>
+      <a href="#" class="btn btn-primary">Aksi Utama</a>
+    </div>
+  </header>
+  <main>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-4 mb-3">
+          <h2>Heading 1</h2>
+          <p>Ini adalah contoh teks. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit aliquet erat vel gravida. Ut sit amet felis euismod, pretium dolor a, laoreet ipsum. Curabitur quis turpis arcu. Sed euismod diam vel mauris molestie, eu iaculis augue hendrerit. Nulla bibendum quam nec semper facilisis. Suspendisse lacinia ex a turpis iaculis bibendum.</p>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <h2>Heading 2</h2>
+          <p>Ini adalah contoh teks. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit aliquet erat vel gravida. Ut sit amet felis euismod, pretium dolor a, laoreet ipsum. Curabitur quis turpis arcu. Sed euismod diam vel mauris molestie, eu iaculis augue hendrerit. Nulla bibendum quam nec semper facilisis. Suspendisse lacinia ex a turpis iaculis bibendum.</p>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <h2>Heading 3</h2>
+          <p>Ini adalah contoh teks. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit aliquet erat vel gravida. Ut sit amet felis euismod, pretium dolor a
+            laoreet ipsum. Curabitur quis turpis arcu. Sed euismod diam vel mauris molestie, eu iaculis augue hendrerit. Nulla bibendum quam nec semper facilisis. Suspendisse lacinia ex a turpis iaculis bibendum.</p>
+        </div>
+     </div>
+    </div>
+    <div class="container-fluid bg-primary py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                <h2 class="mb-4 text-white">Konten Selanjutnya</h2>
+                <a href="#" class="btn btn-outline-light">Lihat Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="bg-light py-3">
+        <div class="container">
+        <div class="text-center">
+            <p>Copyright &copy; 2023 
+            <a href="#">Contoh Website</a> - All Rights Reserved
+            </p>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
